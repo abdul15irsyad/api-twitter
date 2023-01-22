@@ -2,6 +2,10 @@
 
 fetch tweets from twitter api v2 (https://developer.twitter.com/en/docs/twitter-api)
 
+## Before Installation
+
+if you dont have any account at https://developer.twitter.com, please create it first to get authentication token for this project
+
 ## Installation
 
 1. clone repo
@@ -13,8 +17,11 @@ cd api-twitter
 ```bash
 npm install
 ```
-3. run project
+
+3. create `.env` file from `.env.example` : open twitter api credential on https://developer.twitter.com/en/portal/dashboard, and open the project (create if you dont have one) and then copy authentication token and other credential, paste it on `.env` file
+
+4. run project
 ```bash
 npm run start
 ```
-4. get the file result in folder `assets` with format `.json`
+5. get the file result in folder `assets` with format `.json` & `.csv`
