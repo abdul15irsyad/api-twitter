@@ -1,4 +1,4 @@
-# API TWITTER
+# Fetch Search Tweets From Twitter API
 
 fetch tweets from twitter api v2 (https://developer.twitter.com/en/docs/twitter-api)
 

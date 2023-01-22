@@ -1,4 +1,12 @@
 node_modules
-assets/*
-!assets/.gitkeep
+
+# json output folder
+assets/json/*
+!assets/json/.gitkeep
+
+# csv output folder
+assets/csv/*
+!assets/csv/.gitkeep
+
+# environment file
 .env
